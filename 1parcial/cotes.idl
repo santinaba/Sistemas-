@@ -1,0 +1,7 @@
+ module CotesApp{
+ interface ICotes{ 
+ long pendiente (in long pendientes);
+ long pago (in long pagar);
+ oneway void shutdown();
+ }; 
+ };
